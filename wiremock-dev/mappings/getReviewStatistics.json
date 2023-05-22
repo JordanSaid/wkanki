@@ -1,0 +1,40 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPath": "/v2/review_statistics",
+        "queryParameters": {
+          "page_after_id": {
+            "matches": "153735799"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "getReviewStatisticsResponse-LastPage.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPath": "/v2/review_statistics",
+        "queryParameters" : {
+          "page_after_id" : {
+            "absent" : true
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "getReviewStatisticsResponse-Page1.json"
+      }
+    }
+  ]
+}

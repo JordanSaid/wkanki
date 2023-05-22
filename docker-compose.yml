@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  wkanki-service:
+    image: wiremock/wiremock:2.32.0
+    container_name: wkanki-service
+    volumes:
+      - ./wiremock-dev:/home/wiremock
+    ports:
+      - 8095:8080

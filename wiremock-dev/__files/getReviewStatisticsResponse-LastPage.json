@@ -1,0 +1,76 @@
+{
+  "object": "collection",
+  "url": "https://api.wanikani.com/v2/review_statistics?page_after_id=153735799",
+  "pages": {
+    "per_page": 3,
+    "next_url": null,
+    "previous_url": "https://api.wanikani.com/v2/review_statistics"
+  },
+  "total_count": 6,
+  "data_updated_at": "2023-05-17T23:16:06.453603Z",
+  "data": [
+    {
+      "id": 150000088,
+      "object": "review_statistic",
+      "url": "https://api.wanikani.com/v2/review_statistics/150000088",
+      "data_updated_at": "2022-04-12T18:24:46.929517Z",
+      "data": {
+        "created_at": "2020-01-04T15:24:29.635010Z",
+        "subject_id": 6,
+        "subject_type": "radical",
+        "meaning_correct": 11,
+        "meaning_incorrect": 50,
+        "meaning_max_streak": 6,
+        "meaning_current_streak": 6,
+        "reading_correct": 11,
+        "reading_incorrect": 0,
+        "reading_max_streak": 11,
+        "reading_current_streak": 11,
+        "percentage_correct": 96,
+        "hidden": false
+      }
+    },
+    {
+      "id": 150000095,
+      "object": "review_statistic",
+      "url": "https://api.wanikani.com/v2/review_statistics/150000095",
+      "data_updated_at": "2022-04-16T09:50:05.205379Z",
+      "data": {
+        "created_at": "2020-01-04T15:24:36.705618Z",
+        "subject_id": 2,
+        "subject_type": "radical",
+        "meaning_correct": 8,
+        "meaning_incorrect": 0,
+        "meaning_max_streak": 8,
+        "meaning_current_streak": 8,
+        "reading_correct": 8,
+        "reading_incorrect": 55,
+        "reading_max_streak": 8,
+        "reading_current_streak": 8,
+        "percentage_correct": 100,
+        "hidden": false
+      }
+    },
+    {
+      "id": 150000101,
+      "object": "review_statistic",
+      "url": "https://api.wanikani.com/v2/review_statistics/150000101",
+      "data_updated_at": "2021-05-25T05:40:22.258658Z",
+      "data": {
+        "created_at": "2020-01-04T15:24:41.177163Z",
+        "subject_id": 1,
+        "subject_type": "radical",
+        "meaning_correct": 11,
+        "meaning_incorrect": 1,
+        "meaning_max_streak": 7,
+        "meaning_current_streak": 7,
+        "reading_correct": 11,
+        "reading_incorrect": 0,
+        "reading_max_streak": 11,
+        "reading_current_streak": 11,
+        "percentage_correct": 96,
+        "hidden": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: "Wkanki"
+
+#live
+#wanikaniBaseURL: https://api.wanikani.com
+authToken: test
+
+#wiremock
+wanikaniBaseURL: http://localhost:8095
+
+
+#docker-compose - up
+#../../../docker-compose.yml
