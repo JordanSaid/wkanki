@@ -5,8 +5,7 @@ import org.springframework.stereotype.Service;
 
 
 @Service
-public interface Statistics {
+public interface WKStatistics {
     ReviewStatistics getReviewStatistics();
-    ReviewStatistics fetchReviewStatistics(String url);
 
 }

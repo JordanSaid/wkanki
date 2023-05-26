@@ -14,18 +14,18 @@
             <table align="center" class="table table-striped table-light">
                 <thead>
                 <tr>
-                    <th scope="col">SubjectId</th>
                     <th scope="col">SubjectType</th>
+                    <th scope="col">Characters</th>
                     <th scope="col">LeechValue</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr th:each="review : ${reviewStatistics.getData()}">
-                    <th scope="row">
-                        <a th:text="${review.getData().getSubjectId()}"></a>
-                    </th>
                     <td>
                         <span th:text="${review.getData().getSubjectType()}"></span>
+                    </td>
+                    <td>
+                        <span th:text="${review.getSubject().getData().getCharacters()}"></span>
                     </td>
                     <td>
                         <span th:text="${review.getLeechValueDisplayFormatted('##.00')}"></span>

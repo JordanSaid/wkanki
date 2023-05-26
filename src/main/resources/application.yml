@@ -1,6 +1,14 @@
 spring:
   application:
-    name: "Wkanki"
+    name: Wkanki
+  data:
+    mongodb:
+      authentication-database: admin
+      username: rootuser
+      password: rootpass
+      database: wkanki
+      port: 27017
+      host: localhost
 
 #live
 #wanikaniBaseURL: https://api.wanikani.com
@@ -9,6 +17,3 @@ authToken: test
 #wiremock
 wanikaniBaseURL: http://localhost:8095
 
-
-#docker-compose - up
-#../../../docker-compose.yml
